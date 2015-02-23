@@ -1,3 +1,5 @@
+#Zeller's algorithm to check which day of the week you were born
+
 D = int(input("Date(DD):"))
 M = int(input("Month(MM):"))
 Y = int(input("Year(YYYY):"))
