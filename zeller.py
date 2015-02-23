@@ -15,17 +15,6 @@ S = int(2.6*M-5.39) + int(L/4) + int(F/4) + D + L - 2*F
 
 X = S - (7*int(S/7))
 
-if X == 1:
-	print('You were born on Monday')
-elif X == 2:
-	print('You were born on Tuesday')
-elif X == 3:
-	print('You were born on Wednesday')
-elif X == 4:
-	print('You were born on Thursday')
-elif X == 5:
-	print('You were born on Friday')
-elif X == 6:
-	print('You were born on Saturday')
-elif X == 0:
-	print('You were born on Sunday')
+days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+print('You were born on {day}'.format(day=days[X]))
+
